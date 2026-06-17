@@ -1,5 +1,6 @@
 Melbourne Housing Price Predictor
-Regression pipeline to predict residential property prices across three Melbourne suburbs — Point Cook, Williams Landing and Tarneit. Includes manual data collection, EDA, model comparison and a live Gradio web app.
+Regression pipeline to predict residential property prices across three Melbourne suburbs — Point Cook, 
+Williams Landing and Tarneit. Includes manual data collection, EDA, model comparison and a live Gradio web app.
 
 Overview
 Predicts sold property prices (AUD) using features available at the time of listing. Data was manually collected from realestate.com.au rather than using a pre-existing dataset, making this a real end-to-end ML project.
@@ -7,7 +8,8 @@ Predicts sold property prices (AUD) using features available at the time of list
 Dataset
 -Source: Manually scraped from [realestate.com.au](https://www.realestate.com.au) (Sold listings)
 -Size:151 properties — minimum 50 per suburb
--Features: Property type, bedrooms, bathrooms, land size, car spaces, distance to CBD, schools within 1km, study room, sale date
+-Features: Property type, bedrooms, bathrooms, land size, car spaces, distance to CBD, schools within 1km, study room, 
+sale date
 -Target: Sold price (AUD)
 
 What the Pipeline Does
